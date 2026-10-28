@@ -1,0 +1,85 @@
+header{
+    background-color: bisque;
+}
+main > h1{
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    color: rgba(165, 42, 42, 0.609);
+    margin-top: -1px;
+    border-color: #15191E;    
+    border: 1px solid black;
+    padding: 5px;
+    background-color: #213b52;
+}
+.LOGO{
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin: auto;
+    width: fit-content;
+    border-style: groove;
+    border-color: antiquewhite;
+}
+nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    display: inline-block;
+    height: 20px;
+    padding: 30px;
+    margin: 30px;
+    }
+nav a{
+    color:  rgba(205, 49, 49, 0.803);
+    font-size: 16px;
+    transition: 0.3ms;
+    padding: 15px;
+    }        
+nav > ul{
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    }
+    img{
+        width: 250px;
+    }
+footer {
+    background-color: #15191E;
+    color: #F5F7FA;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px
+}
+footer h3 {
+    color: #e1242a79;
+    margin-bottom: 5px
+}
+.section-2{
+    display: block;
+    text-align: center;
+
+}
+.section-2 > h2{
+    color: #e8212897;
+    background-color: #15191E;
+}
+.section-2 > ul > li > span{
+    color: #213b52;
+    font-weight: bolder;
+    text-decoration: line-through;
+}    
+#li{
+    color: #374d68;
+    line-height: 30px;
+    }
+.li1 li{
+    display: inline-block;
+}    
+.li2{
+    display:block;
+    text-align: left;
+}
+.li3{
+    display: inline;
+}
